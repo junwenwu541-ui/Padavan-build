@@ -8,9 +8,9 @@ on:
     tags:
       - 'v*'
   workflow_dispatch:
+  # 把下面多余的 watch 或重复的定义删掉，只保留这一组即可
   watch:
     types: [started]
-
 
   #  branches: 
   #    - master
